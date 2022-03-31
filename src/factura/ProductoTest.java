@@ -6,7 +6,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 class ProductoTest {
-	
+
 	static Producto p;
 
 	@BeforeAll

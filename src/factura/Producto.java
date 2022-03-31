@@ -29,6 +29,36 @@ public class Producto {
 		builder.append("]");
 		return builder.toString();
 	}
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+	public float getPrecio() {
+		return precio;
+	}
+
+
+	public int getCantidad() {
+		return cantidad;
+	}
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+	public void setPrecio(float precio) {
+		this.precio = precio;
+	}
+
+
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
 	
 	
 }
